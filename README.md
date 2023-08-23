@@ -3,7 +3,7 @@ Proyecto de refuerzo ingeniería de software II
 
 Somos el grupo 3 conformado por:
 
--Arias Esteban
+- Arias Esteban
 -	Carpio Luis
 -	Yanez Mishekk
 -	Guevara Gabriela
