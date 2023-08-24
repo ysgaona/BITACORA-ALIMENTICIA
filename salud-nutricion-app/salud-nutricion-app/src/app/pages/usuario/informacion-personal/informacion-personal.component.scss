@@ -1,0 +1,150 @@
+@import '/src/styles/colors.scss';
+
+/* centrar */
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items:center ;
+	justify-content: center;
+	gap: 150px;
+  margin-top: -120px;
+}
+
+
+/* caja del formulario */
+.form-contenido{
+	width: 100%;
+	max-width: 450px;
+	background: linear-gradient(45deg, #299065 ,#89cbaf, #e7efeb);
+	padding: 40px 60px ;
+	text-align: center;
+	border-radius: 30px;
+	border: rgb(94, 224, 157) 5px ridge;
+
+}
+/*estilo al imput*/
+.campo_entrada{
+	background-color:#fff;
+	margin: 15px 0;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	transition: max-height 05s;
+	overflow: hidden;
+	border: rgb(9, 12, 11) 2px ridge;
+}
+
+input{
+ width: 100%;
+ background: transparent;
+ border: 0;
+ outline: none;
+ padding: 18px 15px;
+ color:  #17202A ;
+
+}
+
+input::placeholder{
+	color:#CACFD2;
+}
+.campo_entrada i {
+	margin-left: 15px;
+	color: #CACFD2;
+
+
+}
+/*estilo para el logo*/
+.logo{
+
+	width: 150px;
+	border-radius: 75px;
+	margin-top: -60px;
+	display: inline-block;
+
+}
+
+/*estilos para los iconos*/
+.social-iconos{
+	padding: 0;
+	list-style: none;
+	margin: 1em;
+
+}
+.social-iconos li {
+display: inline-block;
+margin: 0.15em;
+position: relative;
+font-size: 1.2em;
+}
+.social-iconos i{
+	color: #fff;
+	position: absolute;
+	top:21px;
+	left: 21px;
+	transition: all 265ms ease-in-out;
+
+}
+.social-iconos a{
+	display: inline-block;
+
+}
+.social-iconos a::before{
+	transform: scale(1);
+	content: '';
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	display: block;
+	background: linear-gradient(45deg,#2366ebd2 , #5cadd8ea,#8cb7c3ea);
+	transition: all 265ms ease-out;
+
+}
+.social-iconos a::hover::before{
+	transform: scale(0);
+	transition: all 265ms ease-in;
+}
+.social-iconos a::hover i {
+	transform: scale(2.2);
+	color: #ff003c;
+	background: linear-gradient(45deg,#ff003c , #c648c8 );
+	background-clip: text;
+	-webkit-background-clip:text ;
+	-webkit-text-fill-color: transparent;
+	transition: all 265ms ease-in;
+}
+/*estilo del boton*/
+.btn-entrada button{
+	padding: 15px 30px;
+	background-color: #e91ece;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+.btn-entrada:hover button{
+	background-color: #b84b96;
+}
+.btn-entrada:active button{
+	background-color: #bb1b76;
+}
+/*imagen fija  principal*/
+.principal{
+
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+
+	display: flex;
+
+	height: 700px;
+}
+
+select{
+  background-color: #fff;
+  color: #CACFD2;
+  height: 54px;
+  width: 100%;
+  border-radius: 4px;
+}
