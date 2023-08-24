@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="principal">
+    <img src="assets/princi.jpg" alt="imagen principal">
+  </div>
+
+	<div class="form-contenido">
+		<div class="logo">
+			<img src="assets/logo.png" alt="logo" class="logo">
+		</div>
+		<div>
+      <div class="grupo_entrada" id="nameinput">
+        <div class="campo_entrada">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="text" name="username" placeholder="Nombre de usuario" #unam>
+        </div>
+
+        <div class="campo_entrada">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" name="password" placeholder="Contraseña" #pass>
+        </div>
+
+      </div>
+
+      <div class="btn-entrada">
+				<button (click)="loginUsuario(unam.value, pass.value)">Iniciar</button>
+			</div>
+
+      <ul class="social-iconos">
+        <li><a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+
+      <div>
+        <p>!Olvidaste tu Contraseña!<a href="#"> Click aqui</a> </p>
+			</div>
+		</div>
+	</div>
+</div>
